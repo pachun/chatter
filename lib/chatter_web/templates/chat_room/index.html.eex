@@ -4,7 +4,7 @@
 
 <ul>
   <%= for room <- @chat_rooms do %>
-    <li class="room">
+    <li data-role="room" class="room">
       <%= room.name %>
     </li>
   <% end %>
